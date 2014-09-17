@@ -1,0 +1,199 @@
+/* 
+measureraajje.com Stylesheet
+v2.0
+Last Updated: 24-AUG-2014
+Author: Mahran Zameel
+Twitter: @mahranZameel
+*/
+
+* {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #355;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background-color: #e9eded;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 990px;
+  min-height: 100%;
+}
+
+fieldset {
+  background-color: #366;
+  border: none;
+  border-radius: 4px;
+  display: inline-block;
+  padding-bottom: 4px;
+  /width: 100%;
+}
+
+footer {
+  background-color: #366;
+  color: #e9eded;
+  font-size: 8pt;
+  margin: 20px 0 0 0;
+  padding: 6px;
+}
+
+legend {
+  color: white;
+  font-variant: small-caps;
+  font-weight: 900;
+  padding: 0px 0px 6px 0px;
+  position: relative; top: 12px; left: -5px;
+}
+
+section {
+  min-width: 300px;
+}
+
+select {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 3px;
+  display: block;
+  font-size: 16pt;
+  margin-bottom: 10px;
+  outline: none;
+  padding: 2px 4px 2px 4px;
+  width: 100%;
+}
+
+table {
+  border-collapse: collapse;
+  font-size: 12pt;
+  width: 100%;
+}
+
+tfoot {
+  font-weight: 900;
+}
+
+tfoot td {
+  border: none;
+}
+
+tfoot td:first-child, td, th {
+  text-align: right;
+}
+
+td {
+  border-bottom: 1px solid #d1d1d1;
+  padding: 4px 6px 4px 6px;
+}
+
+td:first-child,
+th:first-child {
+  text-align: left;
+}
+
+td:nth-child(4),
+th:nth-child(4),
+td:last-child,
+th:last-child {
+  display: none;
+}
+
+th {
+  background-color: #e1e1e1;
+  font-variant: small-caps;
+  font-weight: 900;
+  padding: 0 6px 4px 6px;
+}
+
+ul {
+  display: none;
+}
+
+#wrapper {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 0 1px;
+}
+
+.buttons-container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 16px 0;
+}
+
+.stretch {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.button {
+  border: 5px solid;
+  border-radius: 12px;
+  outline: none;
+  margin: 0 8px;
+}
+
+.cog {
+  margin: 0 0 0 5px;
+  position: relative; top: -4px; left: 3px;
+  padding: 0;
+  width: 32px;
+}
+
+.route-add {
+  background-color: #3d69ff;
+  background-image: url('rect2989.png');
+  background-repeat: no-repeat;
+  background-position: center; 
+  border-color: #345277;
+  height: 75px;
+  width: 75px;
+}
+
+  .route-add:hover, .route-add:focus {
+    background-color: #4c7cff;
+  }
+
+.route-del {
+  background-color: #735c56;
+  border-color: #4C4136;
+  height: 60px;
+  width: 60px;
+}
+
+.logo {
+  background-color: #336666;
+  padding: 8px 7px 8px 7px;
+  width: 26px;
+}
+
+.narrow {
+  min-width: 70px;
+}
