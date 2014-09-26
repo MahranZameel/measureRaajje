@@ -68,6 +68,16 @@ footer {
   width: 100%;
 }
 
+
+footer span {
+  color: #e6e6e6;
+  padding: 5px;
+  display: block;
+  width: 100%;
+  text-align: right;
+}
+
+
 h1 {
     color: #377;
 }
@@ -138,16 +148,84 @@ select {
   width: 100%;
 }
 
-footer span {
-  color: #e6e6e6;
-  padding: 5px;
-  display: block;
+
+  
+table {
+  border-collapse: collapse;
+  font-size: 12pt;
+  margin-top: 40px;
   width: 100%;
-  text-align: right;
 }
+
+
+tbody tr,
+tfoot tr {
+    display: block;
+}
+
+tbody td:first-child,
+tfoot td:first-child {
+    display: block;
+}
+
+
+tfoot td {
+  border: none;
+  font-weight: 900;
+}
+
+//tfoot td:first-child, td, th {
+//  text-align: right;
+//}
+
+td {
+  border-bottom: 1px solid #d3d3d3;
+  padding: 4px 6px 4px 6px;
+    width: 100%;
+}
+
+td:first-child,
+th:first-child {
+  text-align: left;
+}
+//
+//td:nth-child(4),
+//th:nth-child(4),
+//td:last-child,
+//th:last-child {
+//  display: none;
+//}
+
+th {
+  background-color: #e1e1e1;
+  font-weight: 900;
+  padding: 0 6px 4px 6px;
+}
+
+th:first-child {
+  border-bottom-left-radius: 4px;
+  border-top-left-radius: 4px;
+}
+
+th:nth-child(3) {
+  border-bottom-right-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+thead {
+    display: none;
+}
+
 
 span[class=small-caps] {
   font-size: 10pt;
+}
+
+ul ul {
+    font-weight: 300;
+    margin: 4px;
+    margin-bottom: 16px;
+    margin-left: 10px;
 }
 
 .box {
@@ -361,56 +439,7 @@ span[class=small-caps] {
 #show-hide:checked ~ .show-hide-icon:after {
   content: attr(data-after);
 }
-     
-table {
-  border-collapse: collapse;
-  font-size: 12pt;
-  margin-top: 40px;
-  width: 100%;
-}
-
-
-tfoot td {
-  border: none;
-  font-weight: 900;
-}
-
-tfoot td:first-child, td, th {
-  text-align: right;
-}
-
-td {
-  border-bottom: 1px solid #d3d3d3;
-  padding: 4px 6px 4px 6px;
-}
-
-td:first-child,
-th:first-child {
-  text-align: left;
-}
-
-td:nth-child(4),
-th:nth-child(4),
-td:last-child,
-th:last-child {
-  display: none;
-}
-
-th {
-  background-color: #e1e1e1;
-  font-weight: 900;
-  padding: 0 6px 4px 6px;
-}
-
-th:first-child {
-  border-bottom-left-radius: 4px;
-  border-top-left-radius: 4px;
-}
-
-th:nth-child(3) {
-  border-bottom-right-radius: 4px;
-  border-top-right-radius: 4px;
-}
+   
 
 
 

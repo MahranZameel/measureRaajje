@@ -225,7 +225,7 @@ function caculateAndDisplay(arriveInfo, speed, mileage, price) {
     routeCount++;
   }
   else {
-    row = table.insertRow(routeCount);
+    row = table.insertRow(-1);
 //  
 //  if(routeCount == 0) {
 //    table.deleteRow(routeCount + 1);
